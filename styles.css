@@ -1,0 +1,21 @@
+body{
+    padding: 10px;
+    margin: 200px;
+    background-color: black;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    padding: 20px; 
+    border-width: 100px;
+    border: solid darkgray;
+    background-color: white;
+    position: relative;
+    z-index: 10;
+}
+img{
+    max-width: 200px;
+    max-height: 300px;
+    display: flex;
+    align-self: center;
+}
