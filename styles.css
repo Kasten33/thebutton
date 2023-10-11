@@ -1,21 +1,48 @@
 body{
-    padding: 10px;
-    margin: 200px;
+    display: flex;
     background-color: black;
+    justify-content: center;
 }
 div{
-    display: flex;
-    flex-direction: column;
-    padding: 20px; 
-    border-width: 100px;
-    border: solid darkgray;
+    min-width: 1200px;
+    min-height: 909.49px;
     background-color: white;
-    position: relative;
-    z-index: 10;
 }
 img{
-    max-width: 200px;
-    max-height: 300px;
-    display: flex;
-    align-self: center;
+   display: block;
+   margin-left: auto;
+   margin-right:auto;
+   margin-top: 30px;
+   margin-bottom: 20px
+}
+input{
+ width: 45%
+
+}
+
+.instruction, p, h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    border-style: solid;
+    border-color: darkgrey;
+    margin-left: 20px;
+    margin-right:20px;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 240px
+}
+.LRB{
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: red;
+}
+.b{
+    margin-left: 325px;
 }

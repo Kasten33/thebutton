@@ -8,21 +8,25 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+       
         <div>
+            <main>
             <img src="http://placekitten.com/300/200" alt=""/>
             <p class="instruction">
-                blah blah
+                Fun little project.
             </p>
             <h2 id="h22"> Select Your Color: </h2>
             <label> Red: </label>
             <input type="range" id="rangeRed" value="0" min="0" max="255">
             <label> Green: </label>
             <input type="range" id="rangeGreen" value="0" min="0" max="255">
-            <label> Blue: </label>
+            <br />
+            <label class="b"> Blue: </label>
             <input type="range" id="rangeBlue" value="0" min="0" max="255">
             <br />
-            <button class="large red button" onclick="btnPressed()"> Button </button>
+            <button class="LRB" onclick="btnPressed()"> Button </button>
             <p> Clicks: <a id="clicks"> 0 </a> </p>
+            </main>
         </div>
         <script src="main.js"> </script> 
     </body>
